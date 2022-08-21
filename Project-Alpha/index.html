@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="./styles.css" />
 
     <title>Document</title>
@@ -14,20 +15,52 @@
     <header>
         <nav>
             <span>
-                <img id="logo-img" src="./images/Shop.jfif" alt="logo">
+                <a href="#">
+                    <img id="logo-img" src="./images/Shop.jfif" alt="logo">
+                </a></li>
+
             </span>
 
             <span id="welcome-msg">Welcome to our shop</span>
 
             <section class="right-nav-bar">
-                <span>Search</span>
-                <span>Products</span>
-                <span>Profil</span>
-                <span>Favorites</span>
-                <span>Cart</span>
-                <span>Login</span>
-                <span>Register</span>
-                <span>Logout</span>
+                <ul>
+                    <li class="guest - user">
+                        <a href="#">Search</a>
+                    </li>
+
+                    <li class="guest - user">
+                        <a href="#">Products</a>
+                    </li>
+
+                    <li class="user">
+                        <a href="#">Profil</a>
+                    </li>
+
+                    <li class="user">
+                        <a href="#">Favorites</a>
+                    </li>
+
+                    <li class="user">
+                        <a href="#">Cart</a>
+                    </li>
+
+                    <li class="guest">
+                        <a href="#">Login</a>
+                    </li>
+
+                    <li class="guest">
+                        <a href="#">Register</a>
+                    </li>
+
+                    <li class="user">
+                        <a href="#">Logout</a>
+                    </li>
+
+                    <li class="admin">
+                        <a href="#">Add Product</a>
+                    </li>
+                </ul>
 
             </section>
 
@@ -35,8 +68,9 @@
     </header>
 
     <main>
-
+        <h2 id="dayly-promo-text">Our Dayli Promotions</h2>
         <section class="daily-promo">
+
             <article>
                 <img src="./images/handy.jfif" alt="handy">
                 <div>UVP Price: 100 $</div>
@@ -60,13 +94,9 @@
 
         </section>
 
+        <h2 id="week-promo-text">Our Week Promotions</h2>
+
         <section class="week-promo">
-            <article>
-                <img src="./images/Laptop.jfif" alt="laptop">
-                <div>UVP Price: 100 $</div>
-                <div>Promotion 50$</div>
-
-            </article>
 
             <article>
                 <img src="./images/Laptop.jfif" alt="laptop">
@@ -82,7 +112,14 @@
 
             </article>
 
-            
+            <article>
+                <img src="./images/Laptop.jfif" alt="laptop">
+                <div>UVP Price: 100 $</div>
+                <div>Promotion 50$</div>
+
+            </article>
+
+
 
         </section>
 
@@ -111,7 +148,8 @@
         </section>
 
         <section id="info">Our company
-            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit sunt vero saepe sed libero provident excepturi ad est corporis suscipit?</div>
+            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit sunt vero saepe sed libero
+                provident excepturi ad est corporis suscipit?</div>
         </section>
     </footer>
 

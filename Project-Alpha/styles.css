@@ -20,6 +20,14 @@ nav {
     /* padding-right: 20px; */
 }
 
+.right-nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+
+    
+}
+
 #logo-img {
     max-height: -webkit-fill-available;
 }
@@ -29,10 +37,31 @@ nav {
     
 }
 
+.user a, 
+.guest a {
+    text-decoration: none;
+}
+
+.user {
+    background-color: lightgoldenrodyellow;
+}
+.guest {
+    background-color: lightblue;
+}
+
 
 /* Main -------------------------------------------------------------*/
 main {
     background-color: lightgreen;
+}
+
+#dayly-promo-text,
+#week-promo-text {
+    font-size: 50px;
+    min-height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .daily-promo {
@@ -40,10 +69,26 @@ main {
     display: flex;
     justify-content: space-evenly;
 }
+
+
+
+#dayly-promo-text {
+    background-color: red;
+
+
+}
+
+
+
 .week-promo {
     background-color: lawngreen;
     display: flex;
     justify-content: space-evenly;
+}
+
+#week-promo-text {
+    background-color: grey;
+
 }
 
 main article {
